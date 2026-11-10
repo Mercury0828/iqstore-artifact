@@ -1,4 +1,4 @@
-# Extra tables, figures and numbers for the paper. Executed at the end of gen_results.py, in its
+# Extra tables, figures and numbers for the ICDE writing pass (DD39). Executed at the end of gen_results.py, in its
 # namespace (q1, st, qt, mt, cov, LAY, boot, EPOCH, T, G, R, plt, np, json are defined there).
 xm = []
 
@@ -105,7 +105,7 @@ for inf, mk, lab in ((True, "o", "IQSTORE, change inside the sets"), (False, "s"
 ax.plot([max(int(e["shots"]), 1) for e in rows], [e["b6"]["median"] * 1e3 for e in rows], "x", ms=2.2,
         color="0.55", mew=0.5, ls="none", label="B6, recompute every view")
 ax.set_xscale("log"); ax.set_yscale("log")
-ax.set_xlabel("shots whose label set changes (1 = none)"); ax.set_ylabel("time per change (ms)")
+ax.set_xlabel("number of affected shots (zero plotted at 1)"); ax.set_ylabel("time per change (ms)")
 ax.legend(fontsize=6.2, frameon=False, loc="lower right")
 ax.grid(which="major", lw=0.3, color="0.85")
 fig.tight_layout(pad=0.3)
