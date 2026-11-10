@@ -1,6 +1,6 @@
 # IQSTORE
 
-Code and derived results for the paper *IQSTORE: Storing Qubit Readout Data for Queries Under Later Discriminators*
+Code and derived results for the paper *IQSTORE: Compact Storage for Qubit Readout Queries under Evolving Linear Discriminators*
 (Jiachen Shen, Hui Zhong).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24120145.svg)](https://doi.org/10.5281/zenodo.24120145)
