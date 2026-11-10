@@ -1,0 +1,46 @@
+{
+ "amendment": "docs/guide_amendments.md A12",
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "code_commit": "7165d2756d291e661a123b75c83bb743fa2d6cf9",
+ "engines": {
+  "IQSTORE": "iqstore/lean.py IQFile",
+  "B4q": "baselines/b4q_query.py B4qFile",
+  "B0q": "eval/b0q.py (numba_sel)"
+ },
+ "protocol": "A15 sample of the DEV query mix (20 pairs per class and dataset, STREAM 8 extra 1); end-to-end from the file; 2 warm-ups + 10 measured runs per (engine, pair), shuffled per phase; per configuration: mean over classes of the class median, median over DEV datasets",
+ "dev_median_mix_s": {
+  "IQSTORE|F-drift|1": 0.00020576250099111346,
+  "IQSTORE|F-boot|1": 0.00040907999864430166,
+  "B4q|F-drift|0.5": 0.00028588749883056157,
+  "B4q|F-drift|1": 0.00019504749943735077,
+  "B4q|F-drift|1.5": 0.0002558475003752392,
+  "B4q|F-drift|2": 0.0004182824992312817,
+  "B4q|F-drift|3": 0.0015556125003058697,
+  "B4q|F-boot|0.5": 0.0004256324995367322,
+  "B4q|F-boot|1": 0.00042331999975431245,
+  "B4q|F-boot|1.5": 0.00041330749918415676,
+  "B4q|F-boot|2": 0.00037125000271771564,
+  "B4q|F-boot|3": 0.00033299249953415715,
+  "B0q": 0.004757565002000774
+ },
+ "ordering_fastest_first": {
+  "B4q|F-drift": [
+   1.0,
+   1.5,
+   0.5,
+   2.0,
+   3.0
+  ],
+  "B4q|F-boot": [
+   3.0,
+   2.0,
+   1.5,
+   1.0,
+   0.5
+  ]
+ },
+ "tie_rule": "equal DEV median: the narrower width (smaller multiplier) first",
+ "evidence": {
+  "runs/m2_dev/c1/c1_times.json": "71c5b48fa93fa5de0b623021bb9d202163c4b21ecb5397d925ea572487a53b83"
+ }
+}

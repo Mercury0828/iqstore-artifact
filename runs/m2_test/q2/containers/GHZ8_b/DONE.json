@@ -1,0 +1,55 @@
+{
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "code_commit": "47d5cff0e40cce17fe5a3b91889f3b47f69c77c7+dirty",
+ "seconds": 524.0733616352081,
+ "files": {
+  "IQSTORE_F-drift_x1.bin": {
+   "bytes": 25455,
+   "fallbacks": 0
+  },
+  "IQSTORE_F-boot_x1.bin": {
+   "bytes": 23576,
+   "fallbacks": 0
+  },
+  "B4q_F-drift_x0.5.bin": {
+   "bytes": 25756,
+   "fallbacks": 0
+  },
+  "B4q_F-drift_x1.bin": {
+   "bytes": 30347,
+   "fallbacks": 0
+  },
+  "B4q_F-drift_x1.5.bin": {
+   "bytes": 42086,
+   "fallbacks": 0
+  },
+  "B4q_F-drift_x2.bin": {
+   "bytes": 77905,
+   "fallbacks": 0
+  },
+  "B4q_F-drift_x3.bin": {
+   "bytes": 359405,
+   "fallbacks": 0
+  },
+  "B4q_F-boot_x0.5.bin": {
+   "bytes": 23660,
+   "fallbacks": 0
+  },
+  "B4q_F-boot_x1.bin": {
+   "bytes": 23973,
+   "fallbacks": 0
+  },
+  "B4q_F-boot_x1.5.bin": {
+   "bytes": 24329,
+   "fallbacks": 0
+  },
+  "B4q_F-boot_x2.bin": {
+   "bytes": 24702,
+   "fallbacks": 0
+  },
+  "B4q_F-boot_x3.bin": {
+   "bytes": 25563,
+   "fallbacks": 0
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "pairs": 43479,
+ "statistics": 208283,
+ "violations": [],
+ "width_bound_violations": [],
+ "b_fallback_to_c": 8752,
+ "by_class": {
+  "2": 8648,
+  "3": 8720,
+  "1": 8758,
+  "5": 8733,
+  "4": 8620
+ },
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "dataset": "RCL_d10_s0",
+ "family": "F-boot",
+ "later_epochs": [],
+ "seconds": 150.0,
+ "n_violations": 0,
+ "n_width_bound_violations": 0
+}

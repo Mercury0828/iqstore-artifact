@@ -1,0 +1,924 @@
+{
+ "datasets": {
+  "GHZ8_a": {
+   "epoch": 6,
+   "m": 16,
+   "later_epochs": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 25,
+    "total": 128,
+    "by_context": {
+     "final": [
+      25,
+      128
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 125,
+    "total": 128,
+    "by_context": {
+     "final": [
+      125,
+      128
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 122,
+    "total": 128,
+    "by_context": {
+     "final": [
+      122,
+      128
+     ]
+    }
+   }
+  },
+  "GHZ8_b": {
+   "epoch": 10,
+   "m": 16,
+   "later_epochs": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 15,
+    "total": 64,
+    "by_context": {
+     "final": [
+      15,
+      64
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 61,
+    "total": 64,
+    "by_context": {
+     "final": [
+      61,
+      64
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 60,
+    "total": 64,
+    "by_context": {
+     "final": [
+      60,
+      64
+     ]
+    }
+   }
+  },
+  "GHZ16_a": {
+   "epoch": 12,
+   "m": 16,
+   "later_epochs": [
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 5,
+    "total": 32,
+    "by_context": {
+     "final": [
+      5,
+      32
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 29,
+    "total": 32,
+    "by_context": {
+     "final": [
+      29,
+      32
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 27,
+    "total": 32,
+    "by_context": {
+     "final": [
+      27,
+      32
+     ]
+    }
+   }
+  },
+  "GHZ16_b": {
+   "epoch": 10,
+   "m": 16,
+   "later_epochs": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 16,
+    "total": 64,
+    "by_context": {
+     "final": [
+      16,
+      64
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 61,
+    "total": 64,
+    "by_context": {
+     "final": [
+      61,
+      64
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 60,
+    "total": 64,
+    "by_context": {
+     "final": [
+      60,
+      64
+     ]
+    }
+   }
+  },
+  "RCL_d2_s0": {
+   "epoch": 11,
+   "m": 16,
+   "later_epochs": [
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 5,
+    "total": 48,
+    "by_context": {
+     "final": [
+      5,
+      48
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 44,
+    "total": 48,
+    "by_context": {
+     "final": [
+      44,
+      48
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 39,
+    "total": 48,
+    "by_context": {
+     "final": [
+      39,
+      48
+     ]
+    }
+   }
+  },
+  "RCL_d2_s1": {
+   "epoch": 8,
+   "m": 16,
+   "later_epochs": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 9,
+    "total": 96,
+    "by_context": {
+     "final": [
+      9,
+      96
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 89,
+    "total": 96,
+    "by_context": {
+     "final": [
+      89,
+      96
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 80,
+    "total": 96,
+    "by_context": {
+     "final": [
+      80,
+      96
+     ]
+    }
+   }
+  },
+  "RCL_d6_s1": {
+   "epoch": 13,
+   "m": 16,
+   "later_epochs": [
+    14
+   ],
+   "F-boot": {
+    "inside": 1,
+    "total": 16,
+    "by_context": {
+     "final": [
+      1,
+      16
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 16,
+    "total": 16,
+    "by_context": {
+     "final": [
+      16,
+      16
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 16,
+    "total": 16,
+    "by_context": {
+     "final": [
+      16,
+      16
+     ]
+    }
+   }
+  },
+  "RCL_d8_s1": {
+   "epoch": 8,
+   "m": 16,
+   "later_epochs": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 11,
+    "total": 96,
+    "by_context": {
+     "final": [
+      11,
+      96
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 89,
+    "total": 96,
+    "by_context": {
+     "final": [
+      89,
+      96
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 80,
+    "total": 96,
+    "by_context": {
+     "final": [
+      80,
+      96
+     ]
+    }
+   }
+  },
+  "RCL_d10_s0": {
+   "epoch": 14,
+   "m": 16,
+   "later_epochs": [],
+   "F-boot": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-drift": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-plan": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   }
+  },
+  "RCL_d10_s1": {
+   "epoch": 8,
+   "m": 16,
+   "later_epochs": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 11,
+    "total": 96,
+    "by_context": {
+     "final": [
+      11,
+      96
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 89,
+    "total": 96,
+    "by_context": {
+     "final": [
+      89,
+      96
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 80,
+    "total": 96,
+    "by_context": {
+     "final": [
+      80,
+      96
+     ]
+    }
+   }
+  },
+  "RCL_d12_s1": {
+   "epoch": 13,
+   "m": 16,
+   "later_epochs": [
+    14
+   ],
+   "F-boot": {
+    "inside": 1,
+    "total": 16,
+    "by_context": {
+     "final": [
+      1,
+      16
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 16,
+    "total": 16,
+    "by_context": {
+     "final": [
+      16,
+      16
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 16,
+    "total": 16,
+    "by_context": {
+     "final": [
+      16,
+      16
+     ]
+    }
+   }
+  },
+  "RCL_d14_s1": {
+   "epoch": 7,
+   "m": 16,
+   "later_epochs": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 22,
+    "total": 112,
+    "by_context": {
+     "final": [
+      22,
+      112
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 108,
+    "total": 112,
+    "by_context": {
+     "final": [
+      108,
+      112
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 97,
+    "total": 112,
+    "by_context": {
+     "final": [
+      97,
+      112
+     ]
+    }
+   }
+  },
+  "RCL_d16_s0": {
+   "epoch": 12,
+   "m": 16,
+   "later_epochs": [
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 5,
+    "total": 32,
+    "by_context": {
+     "final": [
+      5,
+      32
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 29,
+    "total": 32,
+    "by_context": {
+     "final": [
+      29,
+      32
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 27,
+    "total": 32,
+    "by_context": {
+     "final": [
+      27,
+      32
+     ]
+    }
+   }
+  },
+  "RCL_d16_s1": {
+   "epoch": 12,
+   "m": 16,
+   "later_epochs": [
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 5,
+    "total": 32,
+    "by_context": {
+     "final": [
+      5,
+      32
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 29,
+    "total": 32,
+    "by_context": {
+     "final": [
+      29,
+      32
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 27,
+    "total": 32,
+    "by_context": {
+     "final": [
+      27,
+      32
+     ]
+    }
+   }
+  },
+  "RCL_d18_s0": {
+   "epoch": 9,
+   "m": 16,
+   "later_epochs": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 12,
+    "total": 80,
+    "by_context": {
+     "final": [
+      12,
+      80
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 77,
+    "total": 80,
+    "by_context": {
+     "final": [
+      77,
+      80
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 74,
+    "total": 80,
+    "by_context": {
+     "final": [
+      74,
+      80
+     ]
+    }
+   }
+  },
+  "RCL_d18_s1": {
+   "epoch": 6,
+   "m": 16,
+   "later_epochs": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 24,
+    "total": 128,
+    "by_context": {
+     "final": [
+      24,
+      128
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 125,
+    "total": 128,
+    "by_context": {
+     "final": [
+      125,
+      128
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 122,
+    "total": 128,
+    "by_context": {
+     "final": [
+      122,
+      128
+     ]
+    }
+   }
+  },
+  "PROD_s0": {
+   "epoch": 11,
+   "m": 16,
+   "later_epochs": [
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 6,
+    "total": 48,
+    "by_context": {
+     "final": [
+      6,
+      48
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 44,
+    "total": 48,
+    "by_context": {
+     "final": [
+      44,
+      48
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 39,
+    "total": 48,
+    "by_context": {
+     "final": [
+      39,
+      48
+     ]
+    }
+   }
+  },
+  "PROD_s1": {
+   "epoch": 9,
+   "m": 16,
+   "later_epochs": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 13,
+    "total": 80,
+    "by_context": {
+     "final": [
+      13,
+      80
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 77,
+    "total": 80,
+    "by_context": {
+     "final": [
+      77,
+      80
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 74,
+    "total": 80,
+    "by_context": {
+     "final": [
+      74,
+      80
+     ]
+    }
+   }
+  },
+  "PROD_s3": {
+   "epoch": 14,
+   "m": 16,
+   "later_epochs": [],
+   "F-boot": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-drift": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-plan": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   }
+  },
+  "REP_d5_r5_L0": {
+   "epoch": 14,
+   "m": 25,
+   "later_epochs": [],
+   "F-boot": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-drift": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   },
+   "F-plan": {
+    "inside": 0,
+    "total": 0,
+    "by_context": {}
+   }
+  },
+  "REP_d5_r5_L1": {
+   "epoch": 6,
+   "m": 25,
+   "later_epochs": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 73,
+    "total": 200,
+    "by_context": {
+     "mid": [
+      64,
+      160
+     ],
+     "final": [
+      9,
+      40
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 198,
+    "total": 200,
+    "by_context": {
+     "mid": [
+      160,
+      160
+     ],
+     "final": [
+      38,
+      40
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 197,
+    "total": 200,
+    "by_context": {
+     "mid": [
+      160,
+      160
+     ],
+     "final": [
+      37,
+      40
+     ]
+    }
+   }
+  },
+  "REP_d5_r10_L1": {
+   "epoch": 10,
+   "m": 45,
+   "later_epochs": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 83,
+    "total": 180,
+    "by_context": {
+     "mid": [
+      78,
+      160
+     ],
+     "final": [
+      5,
+      20
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 177,
+    "total": 180,
+    "by_context": {
+     "mid": [
+      160,
+      160
+     ],
+     "final": [
+      17,
+      20
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 177,
+    "total": 180,
+    "by_context": {
+     "mid": [
+      160,
+      160
+     ],
+     "final": [
+      17,
+      20
+     ]
+    }
+   }
+  },
+  "REP_d5_r8_L0": {
+   "epoch": 7,
+   "m": 37,
+   "later_epochs": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "F-boot": {
+    "inside": 93,
+    "total": 259,
+    "by_context": {
+     "mid": [
+      84,
+      224
+     ],
+     "final": [
+      9,
+      35
+     ]
+    }
+   },
+   "F-drift": {
+    "inside": 255,
+    "total": 259,
+    "by_context": {
+     "mid": [
+      224,
+      224
+     ],
+     "final": [
+      31,
+      35
+     ]
+    }
+   },
+   "F-plan": {
+    "inside": 251,
+    "total": 259,
+    "by_context": {
+     "mid": [
+      224,
+      224
+     ],
+     "final": [
+      27,
+      35
+     ]
+    }
+   }
+  }
+ },
+ "F-boot": {
+  "inside": 435,
+  "total": 1807
+ },
+ "F-drift": {
+  "inside": 1738,
+  "total": 1807
+ },
+ "F-plan": {
+  "inside": 1665,
+  "total": 1807
+ }
+}

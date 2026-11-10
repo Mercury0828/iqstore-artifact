@@ -1,0 +1,253 @@
+{
+ "prereg": "prereg/M2.md v4",
+ "amendments": [
+  "prereg/AMENDMENT_C1_cadence.md",
+  "docs/guide_amendments.md A11 (W3 repair r1)",
+  "docs/guide_amendments.md A12 (staged (c1) timing ordering)",
+  "docs/guide_amendments.md A13 (indexes derived in memory)",
+  "docs/guide_amendments.md A14 (prereg coder set; R1 fixes)",
+  "docs/guide_amendments.md A15 (B0q engine selection sample)",
+  "docs/guide_amendments.md A16 (paper-impact triage, process)",
+  "docs/guide_amendments.md A17 (selective-read B0q engine candidate)"
+ ],
+ "dev_epochs": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "dev_jobs": {
+  "1": "dbno56dt7fqc73ajuki0",
+  "2": "dbnrs2dt7fqc73ak48m0",
+  "3": "dbo13pdt7fqc73akcc0g",
+  "4": "dbo2qq5t7fqc73akffd0",
+  "5": "dbo4gqoqtr0c73ae03q0"
+ },
+ "code_commit_at_freeze": "15f0b2f6acdd5f1a58ef1008fe9a289e4afbf9cb",
+ "F-drift": {
+  "final": {
+   "q99_abs_dtheta": 0.09808473049198008,
+   "q99_abs_dbeta": 0.06634333240777822,
+   "dtheta_half_width": 0.14712709573797011,
+   "dbeta_half_width": 0.09951499861166732
+  },
+  "mid": {
+   "q99_abs_dtheta": 0.08946782904153963,
+   "q99_abs_dbeta": 0.06450197690290883,
+   "dtheta_half_width": 0.13420174356230946,
+   "dbeta_half_width": 0.09675296535436326
+  }
+ },
+ "IQSTORE": {
+  "d0": 4,
+  "max_depth": 16,
+  "split_fraction": 0.25,
+  "dev_median_bits_selected": 0.9984999999999999,
+  "ingest_search": {
+   "factors": [
+    1.0,
+    0.5,
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625,
+    0.0078125,
+    0.00390625,
+    0.001953125,
+    0.0009765625,
+    0.00048828125,
+    0.000244140625
+   ],
+   "stop_rule": "two consecutive not smaller than the best, or one > 1.05 x best, or budget 0 (iqstore/ingest.py)"
+  }
+ },
+ "B3": {
+  "bins_per_axis": 64,
+  "dev_median_bits": [
+   0.6043125,
+   1.3084375000000001,
+   2.5948124999999997
+  ]
+ },
+ "A6": {
+  "block_size": 4096,
+  "dev_median_bits": [
+   120.989,
+   120.6615125,
+   120.5660125
+  ]
+ },
+ "B0q_engine": {
+  "primary": "numba_sel",
+  "dev_median_seconds": {
+   "numba": 0.0063474500020674895,
+   "numba_sel": 0.005388350000430364,
+   "duckdb": 0.036744750002981164
+  },
+  "mismatches_vs_exact": {
+   "numba": 0,
+   "numba_sel": 0,
+   "duckdb": 0
+  }
+ },
+ "Q6_label_entropy_tertiles_bits": [
+  0.17851223134693264,
+  0.9998273938841052
+ ],
+ "dev_sweep_code_commit": "{\"code_commit\": \"7c986d34cc59fafd75fc4f29a6c989278d221ee6\", \"dev_jobs\": {\"1\": \"dbno56dt7fqc73ajuki0\", \"2\": \"dbnrs2dt7fqc73ak48m0\", \"3\": \"dbo13pdt7fqc73akcc0g\", \"4\": \"dbo2qq5t7fqc73akffd0\", \"5\": \"dbo4gqoqtr0c73ae03q0\"}, \"packages\": {\"duckdb\": \"2.0.0\", \"numba\": \"0.68.1\", \"numpy\": \"2.5.4\", \"pyarrow\": \"26.0.1\", \"pysz\": \"1.1.0\", \"zfpy\": \"1.0.1.post0\", \"zstandard\": \"0.25.0\"}, \"python\": \"3.12.10\"}",
+ "tradeoff_grid": {
+  "multipliers": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   3.0
+  ],
+  "bases": [
+   "F-drift",
+   "F-boot"
+  ],
+  "budgets_bits": [
+   1.0,
+   1.5,
+   2.0,
+   3.0,
+   4.0,
+   6.0,
+   8.0
+  ],
+  "tau": 0.001
+ },
+ "deployed": {
+  "F-drift": {
+   "IQSTORE": {
+    "1.0": null,
+    "1.5": "F-drift|1",
+    "2.0": "F-drift|1",
+    "3.0": "F-drift|1",
+    "4.0": "F-drift|1",
+    "6.0": "F-drift|1",
+    "8.0": "F-drift|1"
+   },
+   "B4q": {
+    "1.0": null,
+    "1.5": "F-drift|1",
+    "2.0": "F-drift|1",
+    "3.0": "F-drift|1",
+    "4.0": "F-drift|1",
+    "6.0": "F-drift|1",
+    "8.0": "F-drift|1"
+   },
+   "B4q+box": {
+    "1.0": null,
+    "1.5": "F-drift|1",
+    "2.0": "F-drift|1",
+    "3.0": "F-drift|1",
+    "4.0": "F-drift|1",
+    "6.0": "F-drift|1",
+    "8.0": "F-drift|1"
+   },
+   "A7": {
+    "1.0": null,
+    "1.5": "F-drift|0.5",
+    "2.0": "F-drift|0.5",
+    "3.0": "F-drift|0.5",
+    "4.0": "F-drift|0.5",
+    "6.0": "F-drift|0.5",
+    "8.0": "F-drift|0.5"
+   },
+   "B2-zfp": {
+    "1.0": null,
+    "1.5": null,
+    "2.0": null,
+    "3.0": null,
+    "4.0": null,
+    "6.0": "B2-zfp|130",
+    "8.0": "B2-zfp|130"
+   },
+   "B2-SZ3": {
+    "1.0": "B2-SZ3|132",
+    "1.5": "B2-SZ3|132",
+    "2.0": "B2-SZ3|132",
+    "3.0": "B2-SZ3|132",
+    "4.0": "B2-SZ3|132",
+    "6.0": "B2-SZ3|98",
+    "8.0": "B2-SZ3|88"
+   }
+  },
+  "F-boot": {
+   "IQSTORE": {
+    "1.0": "F-boot|1",
+    "1.5": "F-boot|3",
+    "2.0": "F-boot|3",
+    "3.0": "F-boot|3",
+    "4.0": "F-boot|3",
+    "6.0": "F-boot|3",
+    "8.0": "F-boot|3"
+   },
+   "B4q": {
+    "1.0": null,
+    "1.5": "F-boot|3",
+    "2.0": "F-boot|3",
+    "3.0": "F-boot|3",
+    "4.0": "F-boot|3",
+    "6.0": "F-boot|3",
+    "8.0": "F-boot|3"
+   },
+   "B4q+box": {
+    "1.0": null,
+    "1.5": "F-boot|3",
+    "2.0": "F-boot|3",
+    "3.0": "F-boot|3",
+    "4.0": "F-boot|3",
+    "6.0": "F-boot|3",
+    "8.0": "F-boot|3"
+   },
+   "A7": {
+    "1.0": null,
+    "1.5": "F-boot|3",
+    "2.0": "F-boot|3",
+    "3.0": "F-boot|3",
+    "4.0": "F-boot|3",
+    "6.0": "F-boot|3",
+    "8.0": "F-boot|3"
+   },
+   "B2-zfp": {
+    "1.0": null,
+    "1.5": null,
+    "2.0": null,
+    "3.0": null,
+    "4.0": null,
+    "6.0": "B2-zfp|130",
+    "8.0": "B2-zfp|130"
+   },
+   "B2-SZ3": {
+    "1.0": "B2-SZ3|132",
+    "1.5": "B2-SZ3|132",
+    "2.0": "B2-SZ3|132",
+    "3.0": "B2-SZ3|132",
+    "4.0": "B2-SZ3|132",
+    "6.0": "B2-SZ3|98",
+    "8.0": "B2-SZ3|88"
+   }
+  }
+ },
+ "competitor_timing_order_by_dev_query_time": "staged per amendment A12: per-configuration DEV median warm query times of every competitor grid configuration (an ordering, not one winner), measured on DEV with the final query engine and committed as prereg/M2_dev_freeze_c1.json before any TEST timing",
+ "indexes": "per amendment A13: cell -> shots CSR and cell-tuple index are derived in memory at load from the stored bytes, identically for every method; not persisted, not in b-bar; their build is inside every end-to-end timed run (warm and cold) and construction time, their memory in peak RSS; retained indexes only in the labelled resident mode",
+ "evidence": {
+  "prereg/dev_evidence/fdrift.json": "23d69c56488b75912e11d191c731c285b316530a8e792aba3f4fa8f2678f293c",
+  "prereg/dev_evidence/iqgrid.json": "f428686283940ad6afe192fa0c39343fe500f027bfb327448ba3848feb02c6ce",
+  "prereg/dev_evidence/b3a6.json": "df8c37bcd58ebb0957350987359e0e35dea6ab355320c2f24a1ebc93fd32c8ce",
+  "prereg/dev_evidence/b0q.json": "d22c170b245495d4799e6b1edd2694211858f575657f49ee1972c2886d580da8",
+  "prereg/dev_evidence/cov_summary.json": "b067382e9dba61fc235f172bb57a743ffa495d07087dcdc9d29eaba649663053",
+  "prereg/dev_evidence/entropy.json": "8a9428e9588cc19e20b46fd029d9b80c578b5cd757dcdc641e4bff45debf9a67",
+  "prereg/dev_evidence/cov_s0of6.json": "2ce8cc1d58b820f4eb676a2ea0b112ec770229420ecf2d67dc799e104747964b",
+  "prereg/dev_evidence/cov_s1of6.json": "2de57c88b7965b265834240b2cc2c5efd00ad26c1c80d78d83545ab9cc466ca5",
+  "prereg/dev_evidence/cov_s2of6.json": "bdffe644d64d42a42d9631a20b7249d2a689458b5b539fbabb0a4a43e998d7e6",
+  "prereg/dev_evidence/cov_s3of6.json": "c12cea463e66424d0600c9ba9dc88deb10d8a15625149dbf58a0e056577559dd",
+  "prereg/dev_evidence/cov_s4of6.json": "8b42466aadda1e74669497ae0598f3ec890c57674599b89a32cf229231eadcc5",
+  "prereg/dev_evidence/cov_s5of6.json": "ce4483aef289b517c8d450d9fb6b268095b4977fc5e72b5d5315ce117d95cef1"
+ }
+}

@@ -1,0 +1,11 @@
+numpy==2.5.4
+numba==0.68.1
+duckdb==2.0.0
+zstandard==0.25.0
+zfpy==1.0.1.post0
+pysz==1.1.0
+scipy==1.18.1
+matplotlib==3.11.2
+pytest==9.2.0
+qiskit==2.6.2
+qiskit-ibm-runtime==0.51.0

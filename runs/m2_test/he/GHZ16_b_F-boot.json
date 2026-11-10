@@ -1,0 +1,26 @@
+{
+ "pairs": 43479,
+ "statistics": 209227,
+ "violations": [],
+ "width_bound_violations": [],
+ "b_fallback_to_c": 0,
+ "by_class": {
+  "3": 8808,
+  "4": 8682,
+  "2": 8693,
+  "1": 8664,
+  "5": 8632
+ },
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "dataset": "GHZ16_b",
+ "family": "F-boot",
+ "later_epochs": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "seconds": 152.5,
+ "n_violations": 0,
+ "n_width_bound_violations": 0
+}

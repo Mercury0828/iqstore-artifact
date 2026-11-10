@@ -1,0 +1,27 @@
+{
+ "pairs": 43479,
+ "statistics": 208302,
+ "violations": [],
+ "width_bound_violations": [],
+ "b_fallback_to_c": 0,
+ "by_class": {
+  "5": 8495,
+  "2": 8643,
+  "3": 8769,
+  "4": 8761,
+  "1": 8811
+ },
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "dataset": "PROD_s1",
+ "family": "F-boot",
+ "later_epochs": [
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "seconds": 116.9,
+ "n_violations": 0,
+ "n_width_bound_violations": 0
+}

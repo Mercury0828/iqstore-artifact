@@ -1,0 +1,23 @@
+{
+ "pairs": 43479,
+ "statistics": 210389,
+ "violations": [],
+ "width_bound_violations": [],
+ "b_fallback_to_c": 0,
+ "by_class": {
+  "4": 8596,
+  "2": 8723,
+  "3": 8854,
+  "5": 8686,
+  "1": 8620
+ },
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "dataset": "RCL_d6_s1",
+ "family": "F-drift",
+ "later_epochs": [
+  14
+ ],
+ "seconds": 235.8,
+ "n_violations": 0,
+ "n_width_bound_violations": 0
+}

@@ -1,0 +1,30 @@
+{
+ "pairs": 43479,
+ "statistics": 210412,
+ "violations": [],
+ "width_bound_violations": [],
+ "b_fallback_to_c": 0,
+ "by_class": {
+  "5": 8753,
+  "3": 8867,
+  "2": 8583,
+  "4": 8781,
+  "1": 8495
+ },
+ "freeze_sha256": "8b6f1773edb6476fe428cec9941a571a0ce37b6226f4cee932463179ea323803",
+ "dataset": "REP_d5_r5_L1",
+ "family": "F-boot",
+ "later_epochs": [
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "seconds": 177.2,
+ "n_violations": 0,
+ "n_width_bound_violations": 0
+}
